@@ -11,7 +11,7 @@ class Quiz
     // Constructor: Initializes the quiz with either all or a specific number of random questions
     public Quiz(int questionCount = 0)
     {
-        // Get the runtime directory (e.g., /bin/Debug/net8.0/)
+        // Get the runtime directory
         string basePath = AppContext.BaseDirectory;
 
         // Navigate back to the project root folder to locate the questions file
@@ -22,7 +22,7 @@ class Quiz
         List<string> lineList = lines.ToList(); // Make modifiable copy of lines
         Random rnd = new Random(); // For random question selection
 
-        if (questionCount != 0)
+        if (questionCount != 0 && questionCount <= lineList.Count)
         {
             // Load a random subset of questions
             while (questions.Count < questionCount)
@@ -68,7 +68,7 @@ class Quiz
         // Get the user's name for personalized feedback and score recording
         Console.Write("Please enter your name: ");
         string quizTaker = Console.ReadLine();
-        Console.WriteLine();
+        Console.WriteLine($"You are answering {questions.Count} questions.\n");
 
         // Ask each question
         foreach (var question in questions)

@@ -1,32 +1,20 @@
-# Overview
+# Video Demo
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote to demonstrate the C# language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/32MqC701ZlM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+*IDE*: Visual Studio Code
 
-{Describe the programming language that you used and any libraries.}
+*Language*: C#
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools](https://www.w3schools.com/cs/index.php)
+- [Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Naming: I need to improve on how I assign names to variables, classes, fields etc. so they don't overlap
+- Minifying code: C# syntax has been updated to help make code less wordy. I need to learn about these updates so that I can write code that does more with fewer lines.
+- Pacing: This time, I did not pace myself well when I started learning. I will improve by making my studying more modular.

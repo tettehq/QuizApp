@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Quiz quiz = new Quiz(10); // create a new quiz object from the quiz class and initialize with the number of questions
+        Quiz quiz = new Quiz(100); // create a new quiz object from the quiz class and initialize with the number of questions
         quiz.Start(); // start the quiz
     }
 }
